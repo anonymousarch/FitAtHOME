@@ -42,6 +42,24 @@ header .logo a{
 header .logo a span{
 	color:#c11325;
 }
+header .login .btn{
+	padding: 8px 30px;
+    background-color: #c11325;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+header .login .btn:hover{
+	color:#ffffff;
+	border-color: #ffffff;
+	background-color: transparent;
+}
+
 header .nav{
 	position: fixed;
 	background-color: #c11325;
@@ -436,7 +454,6 @@ header .ham-burger.active span:nth-child(2){
 }
 .schedule .content .text img{
 	width: 100%;
-	transform: rotateY(180deg);
 }
 
 .schedule .content .timing .table{
@@ -584,6 +601,10 @@ header .ham-burger.active span:nth-child(2){
 }
 .price-package .content .box .inner .img img{
 	width: 100%;
+}
+}
+.price-package .img{
+	border-radius: 8px;	
 }
 
 
