@@ -41,11 +41,12 @@ mysqli_close($conn);
 if(isset( $_SESSION['userid'] ))
 {
     $message = 'Users is already logged in';
-    header("location:connect.php");
+    header(location:connect.php);                   
     exit;
 }
 ?>
 </center> 
+
 </body> 
   
 </html>

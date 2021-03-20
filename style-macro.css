@@ -1,0 +1,187 @@
+/*
+Author: Keith Alpichi
+Author URI: www.keithalpichi.com
+ */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Droid Sans";
+  font-size: 100%;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #222222, #c11325);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 0 0 0.5em;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+label {
+  font-size: 1.25em;
+}
+
+ul {
+  margin: 0 0 0.5em;
+}
+
+li {
+  padding: 0.5em;
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #c11325;
+}
+
+section {
+  text-align: center;
+  padding: 1em 0;
+  width: 90%;
+  margin: 0 auto;
+  clear: both;
+}
+
+input {
+  border-radius: 0.75em;
+  text-align: center;
+  display: inline-block;
+  width: auto;
+  padding: 1em 0.5em;
+  margin: 0.25em;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: "Roboto", "Droid Sans";
+  font-size: 1em;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: rgb(53, 53, 53);
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #c11325 #222222);
+}
+button:hover {
+  /* transform: scale(0.99); */
+  color: rgb(240, 239, 239);
+  background: linear-gradient(-135deg, #2e2b2b, #c43d4b);
+}
+
+button#bf {
+  display: -moz-stack;
+}
+
+.button-select {
+  background-color: #c11325;
+}
+
+.hidden {
+  display: none;
+}
+
+.inactive {
+  background-color: #2222227c;
+  color: #2222227c;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+}
+
+.pa-factor label {
+  display: block;
+}
+
+.cals-macs ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+#title {
+  text-transform: uppercase;
+}
+/*--------- Media Queries --------*/
+@media (min-width: 350px) {
+  button,
+  input {
+    font-size: 1.25em;
+  }
+  button {
+    padding: 1em;
+  }
+  input {
+    padding: 1em 0.5em;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  label,
+  li {
+    font-size: 1.75em;
+  }
+  p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 500px) {
+  button {
+    padding: 1.5em;
+  }
+  label,
+  li {
+    font-size: 2em;
+  }
+  #title {
+    font-size: 3em;
+  }
+}
+
+@media (min-width: 700px) {
+  #title {
+    font-size: 3.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  #title {
+    font-size: 4em;
+    padding: 1em 0 0;
+  }
+  button {
+    display: inline-block;
+    padding: 1.5em;
+  }
+  input {
+    display: inline-block;
+    padding: 1em 0.5em;
+  }
+}

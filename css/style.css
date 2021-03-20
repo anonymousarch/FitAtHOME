@@ -54,7 +54,7 @@ header .login .btn{
     transition: all .5s ease;
 }
 
-header .login .btn:hover{
+header  .login .btn:hover{
 	color:#ffffff;
 	border-color: #ffffff;
 	background-color: transparent;
