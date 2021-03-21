@@ -1,9 +1,9 @@
 <?php
 function OpenCon()
  {
- $dbhost = "localhost";
- $dbuser = "root";
- $dbpass = "mvemjsun*123";
+ $dbhost = "mysql-24256-0.cloudclusters.net";
+ $dbuser = "archie";
+ $dbpass = "anonymousarch";
  $db = "register";
  $conn = new mysqli($dbhost, $dbuser, $dbpass,$db);
  

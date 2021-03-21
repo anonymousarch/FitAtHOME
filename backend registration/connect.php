@@ -44,6 +44,8 @@ if(isset( $_SESSION['userid'] ))
     header(location:connect.php);                   
     exit;
 }
+header('location:fittness-club-h.html');
+die();
 ?>
 </center> 
 
